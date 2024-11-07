@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "LR9.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="countRound">Card game</div>
+    <div class="contentContainer">
+        <div class="innerContainer">
+            <div class="headText" id="playerName"></div>
+            <div class="scoreContainer">
+                <img id="playerCardImg" src="" alt="player card">
+                <div class="num" id="playerScore"></div>
+                <div class="num" id="playerTotalScore"></div>
+            </div>
+        </div>
+        <div id="result"></div>
+        <div class="innerContainer">
+            <div class="headText">Computer</div>
+            <div class="scoreContainer">
+                <img id="computerCardImg" src="" alt="computer card">
+                <div class="num" id="computerScore"></div>
+                <div class="num" id="computerTotalScore"></div>
+            </div>
+        </div>
+    </div>
+    <button onclick="gameStart()" id="button">Start Game</button>
+    <script src="LR9.js"></script> 
+</body>
+</html>
