@@ -92,6 +92,25 @@ button:hover {
     font-size: 20px;
     text-align: center;
 }
+.return{
+    background-image: url("gameFon.avif");
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.return:hover{
+    border: 2px solid green;
+}
+.return:active{
+    border: 2px solid red;
+}
+.buttCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
 @media (max-width: 900px) {
     button{
         margin-top: 5%;
@@ -133,5 +152,8 @@ button:hover {
     .num {
         font-size: 20px; 
         height: 15px;
+    }
+    .return{
+        width: 100%;
     }
 }
